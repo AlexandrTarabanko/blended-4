@@ -1,0 +1,78 @@
+
+/* Переменные, <body> и паттерн сокрытия текста (visually-hidden) для Alexandr Tarabanko */
+
+/* Preparations */
+
+:root{
+/* Fonts */
+--primary-font:#333333;
+--secondary-font:#FFFFFF;
+--logo-font:#28A745;
+
+/* Backgrounds */
+--main-background:#FFFFFF;
+--first-additional-background:#F4F4F4;
+--second-additional-background:#28A745;
+--third-additional-background: #0284D0;
+
+/* Buttons */
+--first-btn-color:#28A745;
+--second-btn-color:#0284D0;
+}
+
+body{
+font-family: "Open Sans", sans-serif;
+color: var(--primary-font);
+background-color: var(--main-background);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list{
+    list-style: none;
+}
+
+/* Шапка и Первая(герой) секция для Serhiy Panov, пишите под комментами */
+
+/* HEADER */
+
+
+/* 1 (Hero) */
+
+
+
+/* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
+
+/* 2 */
+
+/* 3 */
+
+
+/* Четвертая секция(Business Cases) за Vasyl Zakharchenko */
+
+/* 4 */
+
+/* Пятая секция(Blog Post One) за Пшеничным Андреем */
+
+/* 5 */
+
+
+/*Шестая секция(Our Professional Team) и подвал за Микитою Ковтуном  */
+
+/* 6 */
+
+/* FOOTER */
+
+
+
