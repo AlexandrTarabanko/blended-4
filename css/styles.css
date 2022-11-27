@@ -8,6 +8,7 @@
 --primary-color:#333333;
 --secondary-color:#FFFFFF;
 --logo-color:#28A745;
+--hero-color: #E9E9E9;
 
 /* Backgrounds */
 --main-background:#FFFFFF;
@@ -23,7 +24,7 @@
 
 body{
 font-family: "Open Sans", sans-serif;
-color: var(--primary-font);
+color: var(--primary-color);
 background-color: var(--main-background);
 }
 
@@ -43,15 +44,55 @@ background-color: var(--main-background);
 .list{
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 
 /* Шапка и Первая(герой) секция для Serhiy Panov, пишите под комментами */
 
 /* HEADER */
-
+/* !фон змінено щоб поки немає картинки було видно білі букви,видалити коли поставимо картинку*/
+.header, .hero {
+    background-color: #333333;
+}
+.logo {
+    color:var(--logo-color);
+    font-size: 35px;
+    line-height: 1.2;
+}
+.logo-part {
+    color: var(--secondary-color);
+}
+.nav-link {
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.55;
+}
 
 /* 1 (Hero) */
-
-
+.hero {
+    text-align: center;
+}
+.hero-title {
+    color: var(--hero-color);
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.hero-text {
+    color: var(--hero-color);
+    font-size: 22px;
+    line-height: 1.68;
+}
+.hero-button {
+    font-family: inherit;
+    background-color: var(--first-btn-color);
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.55;
+    cursor: pointer;
+}
 
 /* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
 
