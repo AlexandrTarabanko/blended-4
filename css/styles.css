@@ -4,11 +4,11 @@
 /* Preparations */
 
 :root{
-/* Fonts */
---primary-font:#333333;
---secondary-font:#FFFFFF;
---logo-font:#28A745;
---hero-font: #E9E9E9;
+/* Colors */
+--primary-color:#333333;
+--secondary-color:#FFFFFF;
+--logo-color:#28A745;
+--hero-color: #E9E9E9;
 
 
 /* Backgrounds */
@@ -25,7 +25,7 @@
 
 body{
 font-family: "Open Sans", sans-serif;
-color: var(--primary-font);
+color: var(--primary-color);
 background-color: var(--main-background);
 }
 
@@ -57,15 +57,17 @@ background-color: var(--main-background);
     background-color: #333333;
 }
 .logo {
-    color:var(--logo-font);
+    color:var(--logo-color);
     font-size: 35px;
+    line-height: 1.2;
 }
 .logo-part {
-    color: var(--secondary-font);
+    color: var(--secondary-color);
 }
 .nav-link {
-    color: var(--secondary-font);
+    color: var(--secondary-color);
     font-size: 18px;
+    line-height: 1.55;
 }
 
 /* 1 (Hero) */
@@ -73,20 +75,23 @@ background-color: var(--main-background);
     text-align: center;
 }
 .hero-title {
-    color: var(--hero-font);
+    color: var(--hero-color);
     font-size: 55px;
     font-weight: 300;
+    line-height: 1.2;
     text-transform: capitalize;
 }
 .hero-text {
-    color: var(--hero-font);
+    color: var(--hero-color);
     font-size: 22px;
+    line-height: 1.68;
 }
 .hero-button {
     font-family: inherit;
     background-color: var(--first-btn-color);
-    color: var(--secondary-font);
+    color: var(--secondary-color);
     font-size: 18px;
+    line-height: 1.55;
     cursor: pointer;
 }
 
