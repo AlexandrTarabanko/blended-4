@@ -4,10 +4,10 @@
 /* Preparations */
 
 :root{
-/* Fonts */
---primary-font:#333333;
---secondary-font:#FFFFFF;
---logo-font:#28A745;
+/* Colors */
+--primary-color:#333333;
+--secondary-color:#FFFFFF;
+--logo-color:#28A745;
 
 /* Backgrounds */
 --main-background:#FFFFFF;
