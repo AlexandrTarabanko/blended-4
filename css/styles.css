@@ -1,0 +1,120 @@
+
+/* Переменные, <body> и паттерн сокрытия текста (visually-hidden) для Alexandr Tarabanko */
+
+/* Preparations */
+
+:root{
+/* Colors */
+--primary-color:#333333;
+--secondary-color:#FFFFFF;
+--logo-color:#28A745;
+--hero-color: #E9E9E9;
+
+/* Backgrounds */
+--main-background:#FFFFFF;
+--first-additional-background:#F4F4F4;
+--second-additional-background:#28A745;
+--third-additional-background:#0284D0;
+--footer-background:#333333;
+
+/* Buttons */
+--first-btn-color:#28A745;
+--second-btn-color:#0284D0;
+}
+
+body{
+font-family: "Open Sans", sans-serif;
+color: var(--primary-color);
+background-color: var(--main-background);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* Шапка и Первая(герой) секция для Serhiy Panov, пишите под комментами */
+
+/* HEADER */
+/* !фон змінено щоб поки немає картинки було видно білі букви,видалити коли поставимо картинку*/
+.header, .hero {
+    background-color: #333333;
+}
+.logo {
+    color:var(--logo-color);
+    font-size: 35px;
+    line-height: 1.2;
+}
+.logo-part {
+    color: var(--secondary-color);
+}
+.nav-link {
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+/* 1 (Hero) */
+.hero {
+    text-align: center;
+}
+.hero-title {
+    color: var(--hero-color);
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.hero-text {
+    color: var(--hero-color);
+    font-size: 22px;
+    line-height: 1.68;
+}
+.hero-button {
+    font-family: inherit;
+    background-color: var(--first-btn-color);
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.55;
+    cursor: pointer;
+}
+
+/* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
+
+/* 2 */
+
+/* 3 */
+
+
+/* Четвертая секция(Business Cases) за Vasyl Zakharchenko */
+
+/* 4 */
+
+/* Пятая секция(Blog Post One) за Пшеничным Андреем */
+
+/* 5 */
+
+
+/*Шестая секция(Our Professional Team) и подвал за Микитою Ковтуном  */
+
+/* 6 */
+
+/* FOOTER */
+
+
+
