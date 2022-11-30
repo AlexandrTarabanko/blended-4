@@ -115,9 +115,41 @@ background-color: var(--main-background);
 /* 5 */
 
 
-/*Шестая секция(Our Professional Team) и подвал за Микитою Ковтуном  */
 
 /* 6 */
+.team{
+    border-color:var(--main-background);
+}
+.team-subtext{
+        font-size: 20px;
+        line-height: 1.65;
+        text-align: center;
+}
+.team-header{
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 1.26;
+        text-align: center;
+}
+.team-text{
+        font-size: 1.55;
+        line-height: 28px;
+        text-align: center;
+}
+.team-name{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.28;
+    text-align: center;
+}
+.team-prof{
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+}
+
+
+/* 7 */
 
 .request-callback {
     background-color: var(--first-additional-background);
@@ -157,7 +189,7 @@ background-color: var(--main-background);
 }
 
 .footer-paragraf {
-    color: var(--main-background);
+    color: var(--secondary-color)
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
