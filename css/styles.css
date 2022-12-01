@@ -157,7 +157,7 @@ background-color: var(--main-background);
 }
 
 .footer-paragraf {
-    color: var(--main-background);
+    color: var(--secondary-color);
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
