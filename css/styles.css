@@ -257,14 +257,14 @@ background-color: var(--main-background);
 
 
 .request-name {
-    background: var(--secondary-color);
+    background: var(--main-background);
     border: 1px solid var(--first-additional-background);
     border-radius: 0px;
 }
 
 
 .request-email {
-    background: var(--secondary-color);
+    background: var(--main-background);
     border: 1px solid var(--first-additional-background);
     border-radius: 0px;
 }
