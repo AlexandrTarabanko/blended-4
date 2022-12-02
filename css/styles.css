@@ -73,6 +73,10 @@ background-color: var(--main-background);
     font-size: 18px;
     line-height: 1.55;
 }
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--link-hover-focus-color);
+}
 
 /* 1 (Hero) */
 .hero {
@@ -97,6 +101,10 @@ background-color: var(--main-background);
     font-size: 18px;
     line-height: 1.55;
     cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--hover-first-btn-color);
 }
 
 /* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
@@ -141,7 +149,7 @@ background-color: var(--main-background);
     margin: 0 0 20px;
 }
 
-/* 2 */
+/* 3 */
 /* Provide section */
 
 .provide-container{
@@ -180,8 +188,13 @@ background-color: var(--main-background);
 }
 
 .provide-details {
-    display: block;
+    display: inline-block;
     margin: 0;
+    
+}
+.provide-details:hover,
+.provide-details:focus{
+    background-color: var(--hover-first-btn-color);
 }
 
 .provide-details-text {
