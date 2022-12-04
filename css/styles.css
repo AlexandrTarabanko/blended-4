@@ -27,9 +27,14 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: var(--primary-color);
-  background-color: var(--main-background);
+  font-family: "Open Sans",
+    sans-serif;
+  color: var(
+    --primary-color
+  );
+  background-color: var(
+    --main-background
+  );
 }
 
 .visually-hidden {
@@ -40,8 +45,12 @@ body {
   overflow: hidden;
   border: 0;
   padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  clip: rect(
+    0 0 0 0
+  );
+  clip-path: inset(
+    50%
+  );
   margin: -1px;
 }
 
@@ -64,21 +73,29 @@ img {
   background-color: #333333;
 }
 .logo {
-  color: var(--logo-color);
+  color: var(
+    --logo-color
+  );
   font-size: 35px;
   line-height: 1.2;
 }
 .logo-part {
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
 }
 .nav-link {
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
   font-size: 18px;
   line-height: 1.55;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--link-hover-focus-color);
+  color: var(
+    --link-hover-focus-color
+  );
 }
 
 /* 1 (Hero) */
@@ -86,28 +103,38 @@ img {
   text-align: center;
 }
 .hero-title {
-  color: var(--hero-color);
+  color: var(
+    --hero-color
+  );
   font-size: 55px;
   font-weight: 300;
   line-height: 1.2;
   text-transform: capitalize;
 }
 .hero-text {
-  color: var(--hero-color);
+  color: var(
+    --hero-color
+  );
   font-size: 22px;
   line-height: 1.68;
 }
 .hero-button {
   font-family: inherit;
-  background-color: var(--first-btn-color);
-  color: var(--secondary-color);
+  background-color: var(
+    --first-btn-color
+  );
+  color: var(
+    --secondary-color
+  );
   font-size: 18px;
   line-height: 1.55;
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--hover-first-btn-color);
+  background-color: var(
+    --hover-first-btn-color
+  );
 }
 
 /* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
@@ -116,8 +143,11 @@ img {
 /* Features section */
 
 .features-container {
-  background-color: var(--first-additional-background);
-  padding: 40px 0 20px;
+  background-color: var(
+    --first-additional-background
+  );
+  padding: 40px 0
+    20px;
 }
 
 .features-title {
@@ -156,9 +186,13 @@ img {
 /* Provide section */
 
 .provide-container {
-  background-color: var(--second-additional-background);
+  background-color: var(
+    --second-additional-background
+  );
   display: flex;
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
   max-height: 460px;
 }
 
@@ -196,13 +230,17 @@ img {
 }
 .provide-details:hover,
 .provide-details:focus {
-  background-color: var(--hover-first-btn-color);
+  background-color: var(
+    --hover-first-btn-color
+  );
 }
 
 .provide-details-text {
-  padding: 11px 27px 12px 42px;
+  padding: 11px 27px
+    12px 42px;
   list-style: none;
-  border: 1px solid #ffffff;
+  border: 1px solid
+    #ffffff;
   border-radius: 5px;
   cursor: pointer;
   width: 97px;
@@ -216,28 +254,91 @@ img {
 /* Четвертая секция(Business Cases) за Vasyl Zakharchenko */
 
 /* 4 */
+.container-business {
+  width: 1304px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
+  text-align: center;
+}
+
+.business-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.business-item:not(
+    :nth-child(
+        4n + 1
+      )
+  ) {
+  margin-left: 8px;
+}
+
+.business-item:nth-child(
+    -n + 4
+  ) {
+  margin-bottom: 7px;
+}
+
+.business-subtitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.business-title {
+  margin-top: 0;
+  margin-bottom: 34px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.business-text {
+  margin-top: 0;
+  margin-bottom: 39px;
+
+  font-size: 18px;
+  line-height: 1.56;
+}
 /* Пятая секция(Blog Post One) за Пшеничным Андреем */
 
 /* 5 */
 .post-container {
   display: flex;
   flex-direction: row-reverse;
-  color: var(--main-background);
-  background-color: var(--second-btn-color);
+  color: var(
+    --main-background
+  );
+  background-color: var(
+    --second-btn-color
+  );
   max-width: 1360px;
   margin: 0 auto;
 }
 
 .post-container-text {
-  padding: 112px 44px 113px 30px;
+  padding: 112px
+    44px 113px 30px;
 }
 
 .post-one-subtitle {
   margin: 0 0 5px;
   font-size: 20px;
   line-height: 1.65;
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
 }
 
 .post-one-title {
@@ -245,24 +346,36 @@ img {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
 }
 
 .post-one-text {
   margin: 0 0 17px;
   font-size: 18px;
   line-height: 1.55;
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
 }
 
 .post-one-button {
   display: inline-block;
-  padding: 11px 31px 10px 42px;
+  padding: 11px 31px
+    10px 42px;
   min-width: 196px;
-  border: 1px solid var(--main-background);
+  border: 1px solid
+    var(
+      --main-background
+    );
   border-radius: 5px;
-  background-color: var(--second-btn-color);
-  color: var(--main-background);
+  background-color: var(
+    --second-btn-color
+  );
+  color: var(
+    --main-background
+  );
   cursor: pointer;
   font-size: 18px;
   line-height: 1.55;
@@ -270,12 +383,16 @@ img {
 
 .post-one-button:hover,
 .post-one-button:focus {
-  background-color: var(--hover-second-btn-color);
+  background-color: var(
+    --hover-second-btn-color
+  );
 }
 
 /* 6 */
 .team {
-  border-color: var(--main-background);
+  border-color: var(
+    --main-background
+  );
 }
 .team-subtext {
   font-size: 20px;
@@ -308,11 +425,15 @@ img {
 /* 7 */
 
 .request-callback {
-  background-color: var(--first-additional-background);
+  background-color: var(
+    --first-additional-background
+  );
 }
 
 .request-headline {
-  color: var(--primary-color);
+  color: var(
+    --primary-color
+  );
   font-weight: 300;
   font-size: 38px;
   line-height: 1.25;
@@ -320,20 +441,32 @@ img {
 }
 
 .request-name {
-  background: var(--main-background);
-  border: 1px solid var(--first-additional-background);
+  background: var(
+    --main-background
+  );
+  border: 1px solid
+    var(
+      --first-additional-background
+    );
   border-radius: 0px;
 }
 
 .request-email {
-  background: var(--main-background);
-  border: 1px solid var(--first-additional-background);
+  background: var(
+    --main-background
+  );
+  border: 1px solid
+    var(
+      --first-additional-background
+    );
   border-radius: 0px;
 }
 
 .request-button {
   display: inline-block;
-  background: var(--second-additional-background);
+  background: var(
+    --second-additional-background
+  );
   border-radius: 5px;
   width: 620px;
   height: 42px;
@@ -342,11 +475,15 @@ img {
 /* FOOTER */
 
 .footer {
-  background: var(--footer-background);
+  background: var(
+    --footer-background
+  );
 }
 
 .footer-paragraf {
-  color: var(--secondary-color);
+  color: var(
+    --secondary-color
+  );
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
