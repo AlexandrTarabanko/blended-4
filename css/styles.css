@@ -1,4 +1,3 @@
-/* Переменные, <body> и паттерн сокрытия текста (visually-hidden) для Alexandr Tarabanko */
 
 /* Preparations */
 
@@ -32,6 +31,25 @@ body {
   background-color: var(--main-background);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li{
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -44,20 +62,19 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
-
-img {
-  display: block;
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
-/* Шапка и Первая(герой) секция для Serhiy Panov, пишите под комментами */
 
-/* HEADER */
+/* HEADER (Serhiy Panov)+(Chernyakina Marina) */
 /* !фон змінено щоб поки немає картинки було видно білі букви,видалити коли поставимо картинку*/
 .header,
 .hero {
@@ -81,7 +98,8 @@ img {
   color: var(--link-hover-focus-color);
 }
 
-/* 1 (Hero) */
+/* 1 */
+/* (Hero) (Serhiy Panov)+(Chernyakina Marina) */
 .hero {
   text-align: center;
 }
@@ -110,14 +128,14 @@ img {
   background-color: var(--hover-first-btn-color);
 }
 
-/* Вторая(Features) и третья(Provide) секция за Alexey Luzanchuk */
+
 
 /* 2 */
-/* Features section */
+/* Features section (Alexey Luzanchuk) */
 
 .features-container {
   background-color: var(--first-additional-background);
-  padding: 40px 0 20px;
+  padding: 40px 66px 20px;
 }
 
 .features-title {
@@ -129,12 +147,17 @@ img {
 .features-list {
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  align-items: center;
   padding: 0;
+  gap: 71px;
 }
 
 .features-item {
   width: 362px;
+}
+.features-container img{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-subtitle {
@@ -153,21 +176,25 @@ img {
 }
 
 /* 3 */
-/* Provide section */
+/* Provide section (Alexey Luzanchuk) */
 
 .provide-container {
   background-color: var(--second-additional-background);
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--secondary-color);
   max-height: 460px;
 }
 
 .provide-img {
   display: inline-block;
+  width: 680px;
 }
 
 .provide-text-container {
-  padding: 84px 30px;
+  padding: 84px 44px 84px 30px;
+  min-width: 680px;
 }
 
 .provide-subtitle {
@@ -192,7 +219,10 @@ img {
 
 .provide-details {
   display: inline-block;
-  margin: 0;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .provide-details:hover,
 .provide-details:focus {
@@ -200,26 +230,22 @@ img {
 }
 
 .provide-details-text {
-  padding: 11px 27px 12px 42px;
   list-style: none;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  cursor: pointer;
   width: 97px;
   font-size: 18px;
   line-height: 1.56;
-}
-.IN-provide-details-text {
-  font-size: 18px;
-  line-height: 1.56;
+  color:var(--secondary-color);
+
+  padding: 11px 27px 12px 42px;
+  width: 167px;
 }
 /* Четвертая секция(Business Cases) за Vasyl Zakharchenko */
 
 /* 4 */
 
-/* Пятая секция(Blog Post One) за Пшеничным Андреем */
 
 /* 5 */
+/* Blog Post One (Пшеничный Андрей) */
 .post-container {
   display: flex;
   flex-direction: row-reverse;
@@ -274,6 +300,7 @@ img {
 }
 
 /* 6 */
+/* Our Professional Team (Alexandr Tarabanko)+(Hennadii Bublikov) */
 .team {
   border-color: var(--main-background);
 }
@@ -306,6 +333,7 @@ img {
 }
 
 /* 7 */
+/* Request Callback  (Микита Ковтун)+(Pavlyuchenko Maksim) */
 
 .request-callback {
   background-color: var(--first-additional-background);
@@ -339,7 +367,8 @@ img {
   height: 42px;
 }
 
-/* FOOTER */
+/* FOOTER  */
+/* (Микита Ковтун)+(Pavlyuchenko Maksim) */
 
 .footer {
   background: var(--footer-background);
