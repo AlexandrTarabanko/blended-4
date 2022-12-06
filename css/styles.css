@@ -97,10 +97,7 @@ img {
   color: var(--link-hover-focus-color);
 }
 
-.nav {
-  width: 1380px;
-  margin: 0 auto;
-}
+
 
 /* 1 */
 /* (Hero) (Serhiy Panov)+(Chernyakina Marina) */
@@ -138,8 +135,7 @@ img {
 .features-container {
   background-color: var(--first-additional-background);
   padding: 40px 66px 20px;
-  width: 1360px;
-  margin: 0 auto;
+ 
 }
 
 .features-title {
@@ -182,10 +178,7 @@ img {
 /* 3 */
 /* Provide section (Alexey Luzanchuk) */
 
-.provide {
-  width: 1360px;
-  margin: 0 auto;
-}
+
 
 .provide-container {
   background-color: var(--second-additional-background);
@@ -257,7 +250,7 @@ img {
   width: 1360px;
   text-align: center;
   padding: 50px 28px;
-  margin: 0 auto;
+  
 }
 
 .business-list {
