@@ -12,12 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
       <nav class="nav">
+        <img src="./images/logo.svg" alt="Company Logo" />
         <a class="logo link" href=""
           >Finance <span class="logo-part">Ledger</span></a
         >
@@ -40,20 +45,23 @@
         </ul>
       </nav>
     </header>
-    <!-- Hero -->
-    <!-- 1 -->
+    <!-- 1 (Hero) -->
     <section class="hero">
       <h1 class="hero-title">The sky is the Limit</h1>
       <p class="hero-text">We provide world class financial assistance</p>
       <button class="hero-button" type="button">&#62; Read More</button>
     </section>
-    <!-- 2 -->
+    <!-- 2 (Work Features) -->
     <section class="features">
       <!-- Hidden Heading №1 -->
       <div class="features-container">
         <h2 class="features-title visually-hidden">Features</h2>
         <ul class="list features-list">
           <li class="features-item">
+            <img
+              src="./images/Features/Investmant Banking.svg"
+              alt="Feature-photo"
+            />
             <h3 class="features-subtitle">Investmant Banking</h3>
             <p class="features-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -61,6 +69,10 @@
             </p>
           </li>
           <li class="features-item">
+            <img
+              src="./images/Features/Portfolio Manager.svg"
+              alt="Feature-photo"
+            />
             <h3 class="features-subtitle">Portfolio Manager</h3>
             <p class="features-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -68,6 +80,10 @@
             </p>
           </li>
           <li class="features-item">
+            <img
+              src="./images/Features/Tax & Custudio.svg"
+              alt="Feature-photo"
+            />
             <h3 class="features-subtitle">Tax & Custudio</h3>
             <p class="features-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -77,7 +93,7 @@
         </ul>
       </div>
     </section>
-    <!-- 3 -->
+    <!-- 3 (We provide) -->
     <section class="provide">
       <div class="provide-container">
         <img
@@ -97,16 +113,14 @@
           </p>
           <details class="provide-details">
             <summary class="provide-details-text">Read More</summary>
-            <p class="IN-provide-details-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              eligendi amet cumque.
             </p>
           </details>
         </div>
       </div>
     </section>
-    <!-- 4 (Business Cases) для Chernyakina Marina -->
+    <!-- 4 (Business Cases) (Chernyakina Marina) -->
     <section class="business">
+      <div class="container-business">
       <p class="business-subtitle">This is what we do</p>
       <h2 class="business-title">Business Cases</h2>
       <p class="business-text">
@@ -179,26 +193,32 @@
           />
         </li>
       </ul>
+      </div>
     </section>
-    <!-- 5 (Blog Post One) для Hennadii Bublikov -->
+    <!-- 5 (Blog Post One) (Hennadii Bublikov) -->
     <section class="post-one">
-      <img
-        src="./images/blog-post-one-pic.jpg"
-        alt="notes on the table"
-        width="680"
-      />
-      <p class="post-one-subtitle">April 16 2020</p>
-      <h2 class="post-one-title">Blog Post One</h2>
-      <p class="post-one-text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-        ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-        illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste
-        maiores deleniti?
-      </p>
-      <button class="post-one-button" type="button">Read Our Blog</button>
+      <div class="post-container">
+        <img
+          src="./images/blog-post-one-pic.jpg"
+          alt="notes on the table"
+          width="680"
+        />
+        <div class="post-container-text">
+          <p class="post-one-subtitle">
+            <time datetime="2020-04-16">April 16 2020</time>
+          </p>
+          <h2 class="post-one-title">Blog Post One</h2>
+          <p class="post-one-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button class="post-one-button" type="button">Read Our Blog</button>
+        </div>
+      </div>
     </section>
-
-    <!-- 6 (Our Professional Team) для Pavlyuchenko Maksim -->
+    <!-- 6 (Our Professional Team) (Pavlyuchenko Maksim) -->
     <section class="team">
       <p class="team-subtext">Who we are</p>
       <h2 class="team-header">Our professional team</h2>
@@ -281,7 +301,7 @@
         </li>
       </ul>
     </section>
-    <!-- 7 Тут должна быть форма, но мы ещё не учили -->
+    <!-- 7 (Request Callback) (Микита Ковтун) -->
     <section class="request">
       <img
         class="request-photo"
@@ -306,7 +326,7 @@
         </form>
       </div>
     </section>
-    <!-- FOOTER для Микити Ковтуна -->
+    <!-- FOOTER (Микита Ковтун) -->
     <footer class="footer">
       <ul class="list footer-list">
         <li class="footer-item">
