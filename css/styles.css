@@ -69,8 +69,8 @@ img {
   text-decoration: none;
 }
 .container {
-  width: 1200px;
-  padding: 0px 15px;
+  width: 1360px;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -296,7 +296,6 @@ img {
   color: var(--main-background);
   background-color: var(--second-btn-color);
   min-width: 1360px;
-  margin: 0 auto;
 }
 
 .post-container-text {
