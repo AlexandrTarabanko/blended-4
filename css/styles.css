@@ -79,6 +79,22 @@ img {
 .hero {
   background-color: #333333;
 }
+.header-container {
+  height: 70px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.all-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 0 0;
+}
+
 .logo {
   color: var(--logo-color);
   font-size: 35px;
@@ -86,6 +102,12 @@ img {
 }
 .logo-part {
   color: var(--secondary-color);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding: 21px 0 0;
 }
 .nav-link {
   color: var(--secondary-color);
@@ -104,17 +126,25 @@ img {
 .hero {
   text-align: center;
 }
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 229px 0 284px;
+}
 .hero-title {
   color: var(--hero-color);
   font-size: 55px;
   font-weight: 300;
   line-height: 1.2;
   text-transform: capitalize;
+  margin-bottom: 25px;
 }
 .hero-text {
   color: var(--hero-color);
   font-size: 22px;
   line-height: 1.68;
+  margin-bottom: 29px;
 }
 .hero-button {
   font-family: inherit;
@@ -123,6 +153,10 @@ img {
   font-size: 18px;
   line-height: 1.55;
   cursor: pointer;
+  border-style: none;
+
+  padding: 10px 30px 9px 41px;
+  border-radius: 5px;
 }
 .hero-button:hover,
 .hero-button:focus {
