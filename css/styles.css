@@ -91,16 +91,22 @@ img {
     
    
 }
+.nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+}
 .icon-header{
   fill: var(--logo-color);
   width: 40px;
   height: 43px;
   margin-right: 10px;
 }
-
 .logo {
   display:flex;
   align-items: center;
+  padding: 11px 0 0 ;
 
 
   color: var(--logo-color);
@@ -110,6 +116,12 @@ img {
 }
 .logo-part {
   color: var(--secondary-color);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding: 21px 0 0;
 }
 .nav-link {
   color: var(--secondary-color);
@@ -128,17 +140,25 @@ img {
 .hero {
   text-align: center;
 }
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 230px 0 293px;
+}
 .hero-title {
   color: var(--hero-color);
   font-size: 55px;
   font-weight: 300;
   line-height: 1.2;
   text-transform: capitalize;
+  margin: 0 0 25px;
 }
 .hero-text {
   color: var(--hero-color);
   font-size: 22px;
   line-height: 1.68;
+  margin: 0 0 29px;
 }
 .icon-arrow{
   fill: var(--secondary-color);
@@ -147,7 +167,6 @@ img {
 }
 .hero-button {
   padding: 10px 30px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 5px;
