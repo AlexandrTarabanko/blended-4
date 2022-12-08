@@ -382,12 +382,18 @@ img {
 
 /* 7 */
 /* Request Callback  (Микита Ковтун)+(Pavlyuchenko Maksim) */
+.request-box{
+  display: flex;
+}
 
 .request-callback {
+  padding:78px 30px 82px 30px;
   background-color: var(--first-additional-background);
 }
 
 .request-headline {
+  margin-bottom: 34px;
+
   color: var(--primary-color);
   font-weight: 300;
   font-size: 38px;
@@ -396,12 +402,16 @@ img {
 }
 
 .request-name {
+  margin-bottom: 36px;
+  
   background: var(--main-background);
   border: 1px solid var(--first-additional-background);
   border-radius: 0px;
 }
 
 .request-email {
+  margin-bottom: 60px;
+
   background: var(--main-background);
   border: 1px solid var(--first-additional-background);
   border-radius: 0px;
@@ -417,11 +427,19 @@ img {
 
 /* FOOTER  */
 /* (Микита Ковтун)+(Pavlyuchenko Maksim) */
-
 .footer {
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
   background: var(--footer-background);
 }
-
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
 .footer-paragraf {
   color: var(--secondary-color);
   font-size: 18px;
