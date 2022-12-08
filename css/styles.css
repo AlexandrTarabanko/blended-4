@@ -402,6 +402,8 @@ img {
 }
 
 .request-name {
+  width: 100%;
+  padding: 6px 5px 5px 5px;
   margin-bottom: 36px;
   
   background: var(--main-background);
@@ -410,6 +412,8 @@ img {
 }
 
 .request-email {
+  width: 100%;
+  padding: 6px 5px 5px 5px;
   margin-bottom: 60px;
 
   background: var(--main-background);
@@ -419,8 +423,13 @@ img {
 
 .request-button {
   display: inline-block;
+  
+  color: var(--secondary-color);
   background: var(--second-additional-background);
+
+  border-color: transparent;
   border-radius: 5px;
+
   width: 620px;
   height: 42px;
 }
