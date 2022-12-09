@@ -427,41 +427,64 @@ img {
 
 /* 6 */
 /* Our Professional Team (Alexandr Tarabanko)+(Hennadii Bublikov) */
+.box-our-team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+}
+
 .team {
   border-color: var(--main-background);
-  
+
 }
+
+.team-list {
+  display: flex;
+  gap: 19px;
+  padding-left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
 .team-subtext {
   font-size: 20px;
   line-height: 1.65;
   text-align: center;
-  
+
+  margin-bottom: 16px;
 }
+
 .team-header {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
   text-align: center;
-  
+
+  margin-bottom: 34px;
 }
+
 .team-text {
-  font-size: 1.55;
-  line-height: 28px;
+  font-size: 28px;
+  line-height: 1.55;
   text-align: center;
-  
+
+  margin-bottom: 45px;
 }
+
 .team-name {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.28;
   text-align: center;
-  
+
+  margin-top: 11px;
 }
+
 .team-prof {
   font-size: 18px;
   line-height: 1.56;
   text-align: center;
-  
+
+  margin-top: 12px;
 }
 
 /* 7 */
