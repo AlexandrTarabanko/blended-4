@@ -22,14 +22,12 @@
 
   /* Links */
   --link-hover-focus-color: #28a745;
-
-  
 }
 
-svg{
+/* svg {
   width: 35px;
   height: 35px;
-}
+} */
 body {
   font-family: 'Open Sans', sans-serif;
   color: var(--primary-color);
@@ -88,8 +86,6 @@ img {
   height: 768px;
   padding: 0;
   margin: 0 auto;
-
-
 }
 
 .nav {
@@ -109,7 +105,6 @@ img {
   display: flex;
   align-items: center;
   padding: 11px 0 0 50px;
-
 
   color: var(--logo-color);
   font-size: 35px;
@@ -201,7 +196,6 @@ img {
 .features-container {
   background-color: var(--first-additional-background);
   padding: 40px 66px 20px;
- 
 }
 
 .features-title {
@@ -218,12 +212,11 @@ img {
   gap: 71px;
 }
 
-.icon-features{
- fill: var(--secondary-color);
- margin: 15px;
- 
+.icon-features {
+  fill: var(--secondary-color);
+  margin: 15px;
 }
-.icon-features-background{
+.icon-features-background {
   background-color: var(--second-additional-background);
   border-radius: 33.5px;
 
@@ -233,7 +226,6 @@ img {
   align-items: center;
   margin: 0 auto;
   justify-content: center;
-
 }
 
 .features-item {
@@ -261,8 +253,6 @@ img {
 
 /* 3 */
 /* Provide section (Alexey Luzanchuk) */
-
-
 
 .provide-container {
   background-color: var(--second-additional-background);
@@ -334,7 +324,6 @@ img {
   width: 1360px;
   text-align: center;
   padding: 50px 28px;
-  
 }
 
 .business-list {
@@ -378,7 +367,6 @@ img {
   flex-direction: row-reverse;
   color: var(--main-background);
   background-color: var(--second-btn-color);
-  
 }
 
 .post-container-text {
@@ -434,7 +422,6 @@ img {
 
 .team {
   border-color: var(--main-background);
-
 }
 
 .team-list {
@@ -487,14 +474,36 @@ img {
   margin-top: 12px;
 }
 
+.social-icon {
+  fill: var(--secondary-color);
+}
+
+.social-list {
+  background-color: grey;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: green;
+}
+
 /* 7 */
 /* Request Callback  (Микита Ковтун)+(Pavlyuchenko Maksim) */
-.request-box{
+.request-box {
   display: flex;
 }
 
 .request-callback {
-  padding:78px 30px 82px 30px;
+  padding: 78px 30px 82px 30px;
   background-color: var(--first-additional-background);
 }
 
@@ -512,7 +521,7 @@ img {
   width: 100%;
   padding: 6px 5px 5px 5px;
   margin-bottom: 36px;
-  
+
   background: var(--main-background);
   border: 1px solid var(--first-additional-background);
   border-radius: 0px;
@@ -530,7 +539,7 @@ img {
 
 .request-button {
   display: inline-block;
-  
+
   color: var(--secondary-color);
   background: var(--second-additional-background);
 
@@ -549,21 +558,21 @@ img {
   text-align: center;
   background: var(--footer-background);
 }
-.icon-footer{
+.icon-footer {
   fill: var(--secondary-color);
 }
-.icon-footer-youtube{
+.icon-footer-youtube {
   fill: var(--secondary-color);
   width: 40px;
   height: 35px;
 }
-.icon-footer-linkedin{
+.icon-footer-linkedin {
   fill: var(--secondary-color);
   width: 31px;
   height: 35px;
 }
 
-.footer-list{
+.footer-list {
   display: flex;
   justify-content: center;
   align-items: center;
