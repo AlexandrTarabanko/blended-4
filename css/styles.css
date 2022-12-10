@@ -489,7 +489,7 @@ img {
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
-  fill: green;
+  fill: var(--link-hover-focus-color);
 }
 
 /* 7 */
