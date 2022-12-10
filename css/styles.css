@@ -116,7 +116,8 @@ img {
   display: flex;
   align-items: center;
   gap: 38px;
-  padding: 21px 46px 0;
+  padding: 21px 0;
+  margin-right: 46px;
 }
 
 .nav-link {
