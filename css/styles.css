@@ -13,8 +13,10 @@
   --second-additional-background: #28a745;
   --third-additional-background: #0284d0;
   --footer-background: #333333;
-  --poppup-background: rgba(40, 167, 69, 0.7);
 
+  /* Overlays */
+  --poppup-overlay: rgba(40, 167, 69, 0.9);
+  
   /* Buttons */
   --first-btn-color: #28a745;
   --second-btn-color: #0284d0;
@@ -266,7 +268,8 @@ img {
   transform: translateY(-100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
-  background: var(--poppup-background);
+  background: var(--poppup-overlay);
+  border-radius: 10px;
 
 }
 
