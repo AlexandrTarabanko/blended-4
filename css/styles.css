@@ -474,13 +474,24 @@ img {
 .social-icon {
   fill: var(--secondary-color);
 }
+.img-thumb {
+  position: relative;
+}
 
 .social-list {
-  background-color: grey;
+  position: absolute;
   display: flex;
   gap: 25px;
-  justify-content: center;
   padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  
+}
+.img-thumb:hover .social-list, 
+.img-thumb:focus .social-list {
+  opacity: 1;
 }
 
 .social-link {
