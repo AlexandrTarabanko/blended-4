@@ -489,8 +489,7 @@ img {
   opacity: 0;
   
 }
-.img-thumb:hover .social-list, 
-.img-thumb:focus .social-list {
+.img-thumb:hover .social-list {
   opacity: 1;
 }
 
