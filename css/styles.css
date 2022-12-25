@@ -79,7 +79,7 @@ img {
   margin: 0 auto;
 }
 
-/* HEADER (Serhiy Panov)+(Chernyakina Marina) */
+/* HEADER  */
 .header-hero-background {
   background-image: url('../images/header-hero-background.jpg'),
     linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
@@ -140,7 +140,7 @@ img {
 }
 
 /* 1 */
-/* (Hero) (Serhiy Panov)+(Chernyakina Marina) */
+/* (Hero) */
 .hero {
   text-align: center;
 }
@@ -198,7 +198,7 @@ img {
   background-color: var(--hover-first-btn-color);
 }
 /* 2 */
-/* Features section (Alexey Luzanchuk) */
+/* Features section  */
 
 .features-container {
   background-color: var(--first-additional-background);
@@ -299,7 +299,7 @@ img {
   }
 
 /* 3 */
-/* Provide section (Alexey Luzanchuk) */
+/* Provide section  */
 
 .provide-container {
   background-color: var(--second-additional-background);
@@ -365,7 +365,7 @@ img {
   padding: 11px 27px 12px 42px;
   width: 167px;
 }
-/* Четвертая секция(Business Cases) за Vasyl Zakharchenko */
+/* Четвертая секция(Business Cases)  */
 
 /* 4 */
 .container-business {
@@ -381,13 +381,6 @@ img {
   gap: 7px 8px;
 }
 
-/* .business-item:not( :nth-child(4n + 1)) {
-  margin-left: 8px;
-}
-
-.business-item:nth-child(-n + 4) {
-  margin-bottom: 7px;
-} */
 
 .business-subtitle {
   margin-bottom: 15px;
@@ -409,7 +402,7 @@ img {
 }
 
 /* 5 */
-/* Blog Post One (Пшеничный Андрей) */
+/* Blog Post One  */
 .post-container {
   display: flex;
   flex-direction: row-reverse;
@@ -465,7 +458,7 @@ img {
 }
 
 /* 6 */
-/* Our Professional Team (Alexandr Tarabanko)+(Hennadii Bublikov) */
+/* Our Professional Team  */
 .box-our-team {
   padding-top: 49px;
   padding-bottom: 59px;
@@ -565,7 +558,7 @@ img {
 }
 
 /* 7 */
-/* Request Callback  (Микита Ковтун)+(Pavlyuchenko Maksim) */
+/* Request Callback */
 .request-box {
   display: flex;
 }
@@ -619,7 +612,6 @@ img {
 }
 
 /* FOOTER  */
-/* (Микита Ковтун)+(Pavlyuchenko Maksim) */
 .footer {
   padding-top: 20px;
   padding-bottom: 16px;
